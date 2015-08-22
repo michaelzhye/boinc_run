@@ -1,0 +1,94 @@
+<ncfft>2</ncfft>
+<cr>0.000000e+00</cr>
+<fl>32</fl>
+<prog>0.00064537</prog>
+<potfreq>13</potfreq>
+<potactivity>2</potactivity>
+<signal_count>0</signal_count>
+<flops>4238169316.363889</flops>
+<spike_count>0</spike_count>
+<autocorr_count>0</autocorr_count>
+<pulse_count>0</pulse_count>
+<gaussian_count>0</gaussian_count>
+<triplet_count>0</triplet_count>
+<best_spike>
+<spike>
+  <peak_power>13.440200805664</peak_power>
+  <mean_power>1</mean_power>
+  <time>2457001.2668979</time>
+  <ra>19.857258118868</ra>
+  <decl>29.116818212837</decl>
+  <q_pix>0</q_pix>
+  <freq>1420216674.8047</freq>
+  <detection_freq>1420216674.8047</detection_freq>
+  <barycentric_freq>0</barycentric_freq>
+  <fft_len>32</fft_len>
+  <chirp_rate>0</chirp_rate>
+  <rfi_checked>0</rfi_checked>
+  <rfi_found>0</rfi_found>
+  <reserved>0</reserved>
+</spike>
+<bs_score>-0.473654</bs_score>
+<bs_bin>6</bs_bin>
+<bs_fft_ind>29914</bs_fft_ind>
+</best_spike>
+<best_gaussian>
+<gaussian>
+  <peak_power>0</peak_power>
+  <mean_power>0</mean_power>
+  <time>0</time>
+  <ra>0</ra>
+  <decl>0</decl>
+  <q_pix>0</q_pix>
+  <freq>0</freq>
+  <detection_freq>0</detection_freq>
+  <barycentric_freq>0</barycentric_freq>
+  <fft_len>0</fft_len>
+  <chirp_rate>0</chirp_rate>
+  <rfi_checked>0</rfi_checked>
+  <rfi_found>0</rfi_found>
+  <reserved>0</reserved>
+  <sigma>0</sigma>
+  <chisqr>0</chisqr>
+  <null_chisqr>0</null_chisqr>
+  <score>0</score>
+  <max_power>0</max_power>
+</gaussian>
+<bg_score>-12.000000</bg_score>
+<bg_display_power_thresh>0.000000</bg_display_power_thresh>
+<bg_bin>0</bg_bin>
+<bg_fft_ind>0</bg_fft_ind>
+</best_gaussian>
+<best_pulse>
+<pulse>
+  <peak_power>0.32115662097931</peak_power>
+  <mean_power>0.001962075708434</mean_power>
+  <time>2457001.2663848</time>
+  <ra>19.857282800736</ra>
+  <decl>29.116538903159</decl>
+  <q_pix>0</q_pix>
+  <freq>1420218811.0352</freq>
+  <detection_freq>1420218811.0352</detection_freq>
+  <barycentric_freq>0</barycentric_freq>
+  <fft_len>32</fft_len>
+  <chirp_rate>0</chirp_rate>
+  <rfi_checked>0</rfi_checked>
+  <rfi_found>0</rfi_found>
+  <reserved>0</reserved>
+  <period>0.33368319272995</period>
+  <snr>5.745023727417</snr>
+  <thresh>7.5499730110168</thresh>
+  <score>0</score>
+  <len_prof>101</len_prof>
+  <pot length=375 encoding="x-csv">
+    72,79,132,89,141,65,95,79,150,104,95,81,119,108,104,84,82,136,72,255,78,
+    78,151,129,66,95,83,156,96,127,47,103,53,111,112,51,87,78,40,97,111,0,
+    99,160,92,68,74,139,72,104,103,128,80,95,90,103,126,51,132,126,122,70,
+    98,128,87,85,75,87,109,110,115,64,123,138,116,90,59,134,31,79,80,97,95,
+    69,84,148,120,106,116,86,116,109,93,101,105,70,103,66,132,109,72
+  </pot>
+</pulse>
+<bp_score>0.760933</bp_score>
+<bp_freq_bin>13</bp_freq_bin>
+<bp_time_bin>16384</bp_time_bin>
+</best_pulse>

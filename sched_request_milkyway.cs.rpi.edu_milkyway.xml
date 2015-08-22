@@ -1,0 +1,148 @@
+<scheduler_request>
+    <authenticator>201859_4f19d4f0e0d4a0b96bcd901dba63a747</authenticator>
+    <hostid>628664</hostid>
+    <rpc_seqno>0</rpc_seqno>
+    <core_client_major_version>7</core_client_major_version>
+    <core_client_minor_version>2</core_client_minor_version>
+    <core_client_release>42</core_client_release>
+    <resource_share_fraction>1.000000</resource_share_fraction>
+    <rrs_fraction>1.000000</rrs_fraction>
+    <prrs_fraction>1.000000</prrs_fraction>
+    <duration_correction_factor>1.000000</duration_correction_factor>
+    <allow_multiple_clients>0</allow_multiple_clients>
+    <sandbox>0</sandbox>
+    <work_req_seconds>100642.389229</work_req_seconds>
+    <cpu_req_secs>100642.389229</cpu_req_secs>
+    <cpu_req_instances>1.000000</cpu_req_instances>
+    <estimated_delay>0.000000</estimated_delay>
+    <client_cap_plan_class>1</client_cap_plan_class>
+    <platform_name>x86_64-pc-linux-gnu</platform_name>
+    <alt_platform>
+        <name>i686-pc-linux-gnu</name>
+    </alt_platform>
+    <code_sign_key>
+1024
+d92e9e62edd0c07b219d8aaef43b295c0d679e5319ad48d7db95f320f3d60d36
+491e49d1a878b1138d023cc352ccf4f4a6e3f38998e62e01fac4086b0ea127bd
+152ffe0e1ba6b24954c20ef181ed6b24eab4424e1c3d573d1924a5f66eab6376
+0adf4597acff2affbb5ed209f439a0edd44ae1167a1e9be6eeb5cc2acd9c9f49
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+<working_global_preferences>
+<global_preferences>
+   <source_project></source_project>
+   <mod_time>0.000000</mod_time>
+   <battery_charge_min_pct>90.000000</battery_charge_min_pct>
+   <battery_max_temperature>40.000000</battery_max_temperature>
+   <run_on_batteries>0</run_on_batteries>
+   <run_if_user_active>1</run_if_user_active>
+   <run_gpu_if_user_active>0</run_gpu_if_user_active>
+   <suspend_if_no_recent_input>0.000000</suspend_if_no_recent_input>
+   <suspend_cpu_usage>25.000000</suspend_cpu_usage>
+   <start_hour>0.000000</start_hour>
+   <end_hour>0.000000</end_hour>
+   <net_start_hour>0.000000</net_start_hour>
+   <net_end_hour>0.000000</net_end_hour>
+   <leave_apps_in_memory>0</leave_apps_in_memory>
+   <confirm_before_connecting>1</confirm_before_connecting>
+   <hangup_if_dialed>0</hangup_if_dialed>
+   <dont_verify_images>0</dont_verify_images>
+   <work_buf_min_days>0.100000</work_buf_min_days>
+   <work_buf_additional_days>0.500000</work_buf_additional_days>
+   <max_ncpus_pct>0.000000</max_ncpus_pct>
+   <cpu_scheduling_period_minutes>60.000000</cpu_scheduling_period_minutes>
+   <disk_interval>60.000000</disk_interval>
+   <disk_max_used_gb>0.000000</disk_max_used_gb>
+   <disk_max_used_pct>90.000000</disk_max_used_pct>
+   <disk_min_free_gb>0.100000</disk_min_free_gb>
+   <vm_max_used_pct>75.000000</vm_max_used_pct>
+   <ram_max_used_busy_pct>50.000000</ram_max_used_busy_pct>
+   <ram_max_used_idle_pct>90.000000</ram_max_used_idle_pct>
+   <idle_time_to_run>3.000000</idle_time_to_run>
+   <max_bytes_sec_up>0.000000</max_bytes_sec_up>
+   <max_bytes_sec_down>0.000000</max_bytes_sec_down>
+   <cpu_usage_limit>100.000000</cpu_usage_limit>
+   <daily_xfer_limit_mb>0.000000</daily_xfer_limit_mb>
+   <daily_xfer_period_days>0</daily_xfer_period_days>
+   <override_file_present>0</override_file_present>
+   <network_wifi_only>0</network_wifi_only>
+</global_preferences>
+</working_global_preferences>
+<cross_project_id>ae866b1bd0c9816bbf8a4596cf10674d</cross_project_id>
+<time_stats>
+    <on_frac>0.743875</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <cpu_and_network_available_frac>0.999942</cpu_and_network_available_frac>
+    <active_frac>0.999942</active_frac>
+    <gpu_active_frac>0.999942</gpu_active_frac>
+    <client_start_time>1439978428.214036</client_start_time>
+    <previous_uptime>0.322586</previous_uptime>
+    <now>1439978428.536622</now>
+</time_stats>
+<net_stats>
+    <bwup>10203.981051</bwup>
+    <avg_up>881624081.686316</avg_up>
+    <avg_time_up>1439978372.944766</avg_time_up>
+    <bwdown>134099.444159</bwdown>
+    <avg_down>5279506405.303603</avg_down>
+    <avg_time_down>1439978376.643786</avg_time_down>
+</net_stats>
+<host_info>
+    <timezone>28800</timezone>
+    <domain_name>backup</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>ee69e25ce84cfe703b27acd76548ba3d</host_cpid>
+    <p_ncpus>2</p_ncpus>
+    <p_vendor>AuthenticAMD</p_vendor>
+    <p_model>AMD E-350 Processor [Family 20 Model 1 Stepping 0]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni monitor ssse3 cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch ibs skinit wdt arat hw_pstate npt lbrv svm_lock nrip_save pausefilter vmmcall</p_features>
+    <p_fpops>1345775919.848238</p_fpops>
+    <p_iops>5061081504.320670</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1439978355.793801</p_calculated>
+    <p_vm_extensions_disabled>0</p_vm_extensions_disabled>
+    <m_nbytes>3744915456.000000</m_nbytes>
+    <m_cache>524288.000000</m_cache>
+    <m_swap>0.000000</m_swap>
+    <d_total>2948965310464.000000</d_total>
+    <d_free>1776808230912.000000</d_free>
+    <os_name>Linux</os_name>
+    <os_version>3.13.0-57-generic</os_version>
+</host_info>
+    <disk_usage>
+        <d_boinc_used_total>135720.000000</d_boinc_used_total>
+        <d_boinc_used_project>22161.000000</d_boinc_used_project>
+        <d_project_share>1954371091694.560059</d_project_share>
+    </disk_usage>
+    <file_info>
+        <name>parameters-15-3s-sim-fast.txt</name>
+        <nbytes>3101.000000</nbytes>
+        <status>1</status>
+    </file_info>
+    <file_info>
+        <name>stars-15-sim-1Aug1.txt</name>
+        <nbytes>3269231.000000</nbytes>
+        <status>0</status>
+    </file_info>
+<app_versions>
+<app_version>
+    <app_name>milkyway_separation__modified_fit</app_name>
+    <version_num>136</version_num>
+    <platform>x86_64-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>2191361855.931868</flops>
+    <api_version>6.13.0</api_version>
+</app_version>
+</app_versions>
+<other_results>
+    <other_result>
+        <name>de_nonmodfit_fast_15_3s_136_sim1Aug1_2_1437561602_9944072_2</name>
+        <app_version>0</app_version>
+    </other_result>
+</other_results>
+</scheduler_request>

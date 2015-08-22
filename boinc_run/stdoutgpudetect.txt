@@ -1,0 +1,7 @@
+16-Aug-2015 14:15:58 [---] cc_config.xml not found - using defaults
+16-Aug-2015 14:16:10 [---] cc_config.xml not found - using defaults
+16-Aug-2015 18:26:17 [---] cc_config.xml not found - using defaults
+16-Aug-2015 18:28:58 [---] cc_config.xml not found - using defaults
+16-Aug-2015 18:36:53 [---] cc_config.xml not found - using defaults
+16-Aug-2015 18:41:58 [---] cc_config.xml not found - using defaults
+19-Aug-2015 18:33:39 [---] Unrecognized tag in cc_config.xml: <ncpus>

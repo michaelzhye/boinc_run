@@ -1,0 +1,272 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<title>CAS@home</title>
+<link href="main.css" rel="stylesheet" type="text/css" />
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="pic/jquery-1.7.1.min.js"></script>
+<script type="text/javascript">
+<!--
+
+function sfHover() {
+   var sfEls=$("#nav li");
+   // var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+    for (var i=0; i<sfEls.length; i++) {
+        sfEls[i].onmouseover=function() {
+			$(this).addClass("sfhover");
+           // this.className+=" sfhover";
+        }
+      sfEls[i].onmouseout=function() {
+			$(this).removeClass("sfhover");
+            //this.className=this.className.replace(new RegExp(" sfhover\b"), "");
+        }
+    }
+}
+if (window.attachEvent) window.attachEvent("onload", sfHover);
+
+//-->
+</script><!-- <scheduler>http://202.122.33.101/cas_cgi/cgi</scheduler> -->
+<link rel="boinc_scheduler" href="http://casathome.ihep.ac.cn/cas_cgi/cgi">
+</head>
+
+<body id="main">
+<script type="text/javascript" src="gotop.js"></script>
+<div id="top">
+    <div id="top_nav">
+        <div class="logo"><a href="http://casathome.ihep.ac.cn"></a></div>
+        <div class="search">
+			<form method=get action="http://google.com/search" target="_blank">
+				<input type=hidden name=domains value="http://casathome.ihep.ac.cn/">
+				<input type=hidden name=sitesearch value="http://casathome.ihep.ac.cn/">
+					 <span class="nobar">
+					 <input class="input_120 border_blue" name=q size=20>
+					 <input class=small type=submit value=Search>
+					 </span>
+			 </form>
+        </div>
+        <div class="clear"></div>
+        <div class="nav_bar">
+            <ul id="nav">
+                <li><a href="index.php">Home </a></li>
+                <li><a href="join_en.php">Join!</a></li>
+                <li><a href="about_us.php">About </a>
+                    <ul>
+                        <li><a href="about_us.php">About CAS@home</a></li>
+                        <li><a href="about_Boinc.php">About BOINC</a></li>
+                    </ul>
+				</li>
+                <li><a href="reseaches.php">Research</a>
+                    <ul>
+						<li><a href="about_scthread.php">Protein Structure</a></li>
+						<li><a href="about_lammps.php">Nanotechnology</a></li>
+						<li><a href="about_bwa.php">Cancer Genomics</a></li>
+						<li><a href="about_boss.php">High Energy Physics</a></li>
+						<li><a href="related_projects.php">Related Projects</a></li>
+                    </ul>
+                </li>
+                <li><a href="home.php">User</a>
+                    <ul>
+                        <li><a href="login_form.php">Sign In</a></li>
+                        <li><a href="home.php">Your account</a></li>
+
+                    </ul>
+                </li>
+                <li><a href="home.php">Community</a>
+                    <ul>
+                        <li><a href="forum_index.php">Forums</a></li>
+                        <li><a href="user_search.php">User search</a></li>
+                        <li><a href="team.php">Teams</a></li>
+                        <li><a href="profile_menu.php">Profiles</a></li>
+                    </ul>
+                </li>
+                <li><a href="stats.php">Statistics</a>
+                    <ul>
+                        <li><a href="top_users.php">Top Users</a></li>
+                        <li><a href="top_hosts.php">Top Computers</a></li>
+                        <li><a href="top_teams.php">Top Teams</a></li>
+                        <li><a href="server_status.php">Server Status</a></li>
+                        <li><a href="stats_chart.php">CAS@home Stats</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="language">
+
+        <script type="text/javascript">
+        function Setcookie(title,value,expires,path,domain,secure) {
+            var expDays = expires*60*60*1000;
+            var expDate = new Date();
+            expDate.setTime(expDate.getTime()+expDays);
+            var expString = ((expires==null)?"":(";expires="+expDate.toGMTString()));
+            var pathString = ((path==null)?"":(";path="+path));
+            var domainString =((domain==null)?"":(";domain="+domain));
+            var secureString = ((secure==true)?";secure":"");
+            document.cookie = title + "=" + escape(value) + expString + pathString + domainString + secureString; 
+        } 
+        function GetSelect() {
+            var x=document.getElementById("mySelect").selectedIndex;
+            var SelectValue=document.getElementById("mySelect").options[x].value;
+            Setcookie("lang",SelectValue,365,"/",null,false);
+            document.location.reload();
+        }
+        </script>
+        <div class="lable">
+            <select name="langselect" onchange="javascript:GetSelect()" id="mySelect" title="Language">
+                <option value="SelectLanguage" selected="selected">Select Language</option>
+    
+				<option value="ca">Català</option>
+				<option value="cs">Čeština</option>
+				<option value="da">Danish</option>
+				<option value="de">Deutsch</option>
+				<option value="en">English</option>
+				<option value="es">Español</option>
+				<option value="fr">LANG_NAME_NATIVE</option>
+				<option value="hu">Magyar</option>
+				<option value="it">Italiano</option>
+				<option value="ja">日本語</option>
+				<option value="ko">한국어</option>
+				<option value="lt">Lietuvių</option>
+				<option value="nl">Nederlands</option>
+				<option value="pl">Polski</option>
+				<option value="pt">Português</option>
+				<option value="ru">Русский</option>
+				<option value="sl">Slovenščina</option>
+				<option value="tr">Türkçe</option>
+				<option value="zh_CN">简体中文</option>
+            </select>
+        </div>
+            </div>
+    </div>
+</div>
+         <div class=page_title></div>
+         <div id=wrap>
+    
+    <div id="content">
+        <div class="top_banner">
+            <div class="flash_show"><iframe id="index_slide" src="pic/proj-slider-en.html" allowtransparency="allowtransparency" scrolling="no" frameborder="0" width="760" height="290"></iframe></div>
+            <div class="banner_right">
+            <div class=" research"><a href="about_us.php" class="intro_btn">What is CAS@home?</a><!--<iframe src="research.html" width="180" height="290" allowtransparency="allowtransparency" scrolling="no" frameborder="0"></iframe> --></div>
+            <div class="ctd_btn"><a href="join_en.php"><img src="images/btn_join.gif" alt="Join Now!" name="btn_ctd" width="150" border="0" id="btn_ctd" /></a></div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="info">
+            <div class="news">
+                <h2>News</h2>
+<p><span class=news_title>LHC@home Test4Theory passed 2 Trillion events</span><br>
+
+        <span class=news_content>The Test4Theory application of LHC@home just announced that they have reached the total of <b>2 Trillion </b>events simulated since 2011 by volunteers for the CERN PH-TH project MCPlots.<br />
+<br />
+The original news can be found <a href="http://lhcathome2.cern.ch/vLHCathome/forum_thread.php?id=1685" rel="nofollow">here</a></span>
+        <span class=news_date>29 Jun 2015, 8:31:22 UTC
+    
+            &middot; <a href=http://casathome.ihep.ac.cn/forum_thread.php?id=17591> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>CAS@home maintenance period</span><br>
+
+        <span class=news_content>IHEP Computer Center enters the annual maintenance period starting from 25th July, and finishes at 30th July. The CAS@home server will be shutdown during this period! <br />
+Thanks for your understanding!</span>
+        <span class=news_date>25 Jul 2014, 7:45:40 UTC
+    
+            &middot; <a href=http://casathome.ihep.ac.cn/forum_thread.php?id=17574> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>CAS@home computing schedule</span><br>
+
+        <span class=news_content>Thanks to all the generous contribution from our volunteers, TreeThreader has finished its first computing campaign of 50K protein sequences. Very important scientific conclusion has been drawn from the results and a new paper is in the process of writing. Official results will be published later on CAS@home news.A new campaign of TreeThreader will be launched soon with a task of 80K sequences to be predicted!<br />
+<br />
+感谢各位志愿者的热心帮助，TreeThreader已经成功完成了第一批的计算任务，成功破解了5万条新蛋白质序列的结构。基于这些计算结果，生物学家在利用海藻提炼石油的研究方面已经得出重要的科学结论，目前正在撰写相关论文。CAS@home后续会继续公布正式的科学结论。TreeThreader后续将有更大的计算任务（约8万条蛋白质序列），目前计算任务正在部署中。</span>
+        <span class=news_date>12 Feb 2014, 3:04:44 UTC
+    
+            &middot; <a href=http://casathome.ihep.ac.cn/forum_thread.php?id=252> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>TreeThreader Job Submission Error</span><br>
+
+        <span class=news_content>Due to network problems between ICT and IHEP, the TreeThreader job submission service keeps failing. In order to diagnose this problem, the job submission service will be stopped, hence no jobs will be generated during this period. We will send notifications once the service is back! Sorry for the inconvenience!<br />
+<br />
+<font color="red"><b>Updates:<br />
+ICT has started to slowly submit jobs from last week to test the stability! (28th Aug, 2013)</b></font><br />
+<br />
+由于网络故障问题，TreeThreader 的作业提交系统不断出现失败，为了诊断故障，我们决定暂时中止TreeThreader的作业提交服务，因此这段时间内CAS@home上将没有可领取的作业。我们会在解决问题后，及时通知！带来不便，敬请谅解！<br />
+<br />
+<font color="red"><b>更新：<br />
+计算所的前端作业服务器开始小规模地提交作业，测试系统的稳定性，一切还在恢复过程中！（2013-08-28）</b></font></span>
+        <span class=news_date>26 Jul 2013, 3:48:00 UTC
+    
+            &middot; <a href=http://casathome.ihep.ac.cn/forum_thread.php?id=232> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>CAS@home back in service.</span><br>
+
+        <span class=news_content>We have finished the regular maintenance of our servers, and CAS@home is back in service now.</span>
+        <span class=news_date>21 Jul 2013, 11:30:10 UTC
+    
+            &middot; <a href=http://casathome.ihep.ac.cn/forum_thread.php?id=229> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <a href=http://casathome.ihep.ac.cn/old_news.php>... more</a>
+        <br><br><p class="smalltext">
+    News is available as an <a href=rss_main.php>RSS feed &nbsp; <img src="img/rss_icon.gif" alt="RSS"></a>            </div>
+            <div class="c_right">
+                <div class="uotd">
+            <td class=uotd>
+            <h2 class=headline>User of the day</h2>
+        <a href="http://casathome.ihep.ac.cn/view_profile.php?userid=7138"><img border=0 vspace=4 hspace=8 align=left src="http://casathome.ihep.ac.cn/user_profile/images/7138_sm.jpg" alt="User profile"></a> <a href="http://casathome.ihep.ac.cn/view_profile.php?userid=7138"><img title="View the profile of 3Rni" src="http://casathome.ihep.ac.cn/img/head_20.png" alt="Profile"></a> <a href="http://casathome.ihep.ac.cn/show_user.php?userid=7138">3Rni</a><br></td></tr>
+
+                </div>
+              <div class="social"></div>
+                 <div class="fansite">
+                 <h2>Partner Organizations</h2>
+                 <ul><a href="http://www.cas.ac.cn/" target="_blank"><img src="images/cas_logo_28.jpg" class="fansite_icon"/>Chinese Academy of Sciences </a>
+                 <li><a href="http://www.ihep.ac.cn/" target="_blank"><img src="images/ihep_logo_28.jpg" class="fansite_icon"/>Institute of High Energy Physics, CAS</a></li>
+                 <li><a href="http://www.ict.ac.cn/" target="_blank"><img src="images/ict_logo_28.jpg" class="fansite_icon"/>Institute of Computing Technology, CAS</a></li>
+                 <li><a href="http://big.cas.cn/" target="_blank"><img src="images/big_logo_28.jpg" class="fansite_icon"/>Beijing Institute of Genomics, CAS</a></li>
+				</ul>
+                <ul><a href="http://www.tsinghua.edu.cn/" target="_blank"><img src="images/tu_logo_50.jpg" class="fansite_icon"/>Tsinghua University</a>
+                <li><a href="http://cnmm.tsinghua.edu.cn/" target="_blank"><img src="images/cnmm_logo_28.jpg" class="fansite_icon" width="180"/>Center for Nano and Micro Mechanics</a></li>
+                </ul>
+				</ul>
+                <ul><a href="http://www.citizencyberscience.net/" target="_blank"><img src="images/ccclogo_180.jpg" class="fansite_icon" height="31"/>Citizen Cyberscience Centre</a>
+                </ul>
+                <ul><a href="http://www.equn.com/" target="_blank"><img src="images/equn.gif" class="fansite_icon"/>Chinese volunteer computing community</a>
+                </ul>
+                <h2>Sponsors</h2>
+                <ul><a href="http://www.shuttleworthfoundation.org/" target="_blank"><img src="images/shuttleworth180.jpg" class="fansite_icon" height="31"/>Shuttleworth Foundation</a></ul>
+			</div>
+            </div>
+           
+    </div>
+    <div class="clear"></div>
+	</div>
+        <div class="footer">
+          <table width="90%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+              <td width="25%"><img src="http://casathome.ihep.ac.cn/img/pb_boinc.gif"  height="52" /></td>
+              <td width="59%" align="center">Copyright © 2010 - 2011 Institute of High Energy Physics,CAS</td>
+              <td width="25%" align="right"><img src="http://casathome.ihep.ac.cn/img/IHEP_logo.jpg" height="30" /></td>
+            </tr>
+          </table>
+		  <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31586441-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+        </div></div>
+</body></html>

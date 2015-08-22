@@ -1,0 +1,214 @@
+<client_state>
+<host_info>
+    <timezone>28800</timezone>
+    <domain_name>backup</domain_name>
+    <ip_addr>127.0.1.1</ip_addr>
+    <host_cpid>ee69e25ce84cfe703b27acd76548ba3d</host_cpid>
+    <p_ncpus>2</p_ncpus>
+    <p_vendor>AuthenticAMD</p_vendor>
+    <p_model>AMD E-350 Processor [Family 20 Model 1 Stepping 0]</p_model>
+    <p_features>fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl nonstop_tsc extd_apicid aperfmperf pni monitor ssse3 cx16 popcnt lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch ibs skinit wdt arat hw_pstate npt lbrv svm_lock nrip_save pausefilter vmmcall</p_features>
+    <p_fpops>1345775919.848238</p_fpops>
+    <p_iops>5061081504.320670</p_iops>
+    <p_membw>1000000000.000000</p_membw>
+    <p_calculated>1439978355.793801</p_calculated>
+    <p_vm_extensions_disabled>0</p_vm_extensions_disabled>
+    <m_nbytes>3744915456.000000</m_nbytes>
+    <m_cache>524288.000000</m_cache>
+    <m_swap>0.000000</m_swap>
+    <d_total>2948965310464.000000</d_total>
+    <d_free>1776808230912.000000</d_free>
+    <os_name>Linux</os_name>
+    <os_version>3.13.0-57-generic</os_version>
+    <coprocs>
+    </coprocs>
+</host_info>
+<time_stats>
+    <on_frac>0.743862</on_frac>
+    <connected_frac>-1.000000</connected_frac>
+    <cpu_and_network_available_frac>0.999919</cpu_and_network_available_frac>
+    <active_frac>0.999919</active_frac>
+    <gpu_active_frac>0.999919</gpu_active_frac>
+    <client_start_time>1439978428.214036</client_start_time>
+    <previous_uptime>120.248763</previous_uptime>
+    <last_update>1439978539.481023</last_update>
+</time_stats>
+<net_stats>
+    <bwup>10245.742570</bwup>
+    <avg_up>881565162.933500</avg_up>
+    <avg_time_up>1439978431.903085</avg_time_up>
+    <bwdown>142427.687783</bwdown>
+    <avg_down>5279354344.444217</avg_down>
+    <avg_time_down>1439978435.678521</avg_time_down>
+</net_stats>
+<project>
+    <master_url>http://milkyway.cs.rpi.edu/milkyway/</master_url>
+    <project_name>Milkyway@Home</project_name>
+    <symstore></symstore>
+    <user_name>admin</user_name>
+    <team_name></team_name>
+    <host_venue></host_venue>
+    <email_hash>4f090827da4c258d6ce7c6a476d3a747</email_hash>
+    <cross_project_id>ae866b1bd0c9816bbf8a4596cf10674d</cross_project_id>
+    <cpid_time>1331099449.000000</cpid_time>
+    <user_total_credit>364088.384021</user_total_credit>
+    <user_expavg_credit>2116.737962</user_expavg_credit>
+    <user_create_time>1331099449.000000</user_create_time>
+    <rpc_seqno>1</rpc_seqno>
+    <userid>201859</userid>
+    <teamid>0</teamid>
+    <hostid>628664</hostid>
+    <host_total_credit>0.000000</host_total_credit>
+    <host_expavg_credit>0.000000</host_expavg_credit>
+    <host_create_time>1439978372.000000</host_create_time>
+    <nrpc_failures>0</nrpc_failures>
+    <master_fetch_failures>0</master_fetch_failures>
+    <min_rpc_time>1439978493.840053</min_rpc_time>
+    <next_rpc_time>0.000000</next_rpc_time>
+    <rec>0.024295</rec>
+    <rec_time>1439978548.462799</rec_time>
+    <resource_share>100.000000</resource_share>
+    <desired_disk_usage>0.000000</desired_disk_usage>
+    <duration_correction_factor>1.000000</duration_correction_factor>
+    <sched_rpc_pending>0</sched_rpc_pending>
+    <send_time_stats_log>0</send_time_stats_log>
+    <send_job_log>0</send_job_log>
+    <dont_use_dcf/>
+    <rsc_backoff_time>
+        <name>CPU</name>
+        <value>1439979117.501851</value>
+    </rsc_backoff_time>
+    <rsc_backoff_interval>
+        <name>CPU</name>
+        <value>600.000000</value>
+    </rsc_backoff_interval>
+    <scheduler_url>http://milkyway.cs.rpi.edu/milkyway_cgi/cgi</scheduler_url>
+    <code_sign_key>
+1024
+d92e9e62edd0c07b219d8aaef43b295c0d679e5319ad48d7db95f320f3d60d36
+491e49d1a878b1138d023cc352ccf4f4a6e3f38998e62e01fac4086b0ea127bd
+152ffe0e1ba6b24954c20ef181ed6b24eab4424e1c3d573d1924a5f66eab6376
+0adf4597acff2affbb5ed209f439a0edd44ae1167a1e9be6eeb5cc2acd9c9f49
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000000000000010001
+.
+</code_sign_key>
+</project>
+<app>
+    <name>milkyway_separation__modified_fit</name>
+    <user_friendly_name>Milkyway@Home Separation (Modified Fit)</user_friendly_name>
+    <non_cpu_intensive>0</non_cpu_intensive>
+</app>
+<file>
+    <name>milkyway_separation__modified_fit_1.36_x86_64-pc-linux-gnu</name>
+    <nbytes>553792.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <status>1</status>
+    <executable/>
+    <signature_required/>
+    <file_signature>
+539933507d4843cd8e7f916d5ed5cb76a8a78e0c7c71b082ff4636942ef40217
+4218727df2dfdb5846af6d2133e849e6c5418c249c74aeb1b34a7def271cf738
+26c8755cc15d3fdb879c70fe02d7aed84b084243218f26e618f79e2eea91b2d4
+503d2eeea31b636a76407541dd86e496f6b89f58893ef222b647a9f95e89b59e
+.
+</file_signature>
+    <download_url>http://milkyway.cs.rpi.edu/milkyway/download/milkyway_separation__modified_fit_1.36_x86_64-pc-linux-gnu</download_url>
+</file>
+<file>
+    <name>parameters-15-3s-sim-fast.txt</name>
+    <nbytes>3101.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <md5_cksum>b64fec2a1929a02268a20462366ac32f</md5_cksum>
+    <status>1</status>
+    <sticky/>
+    <download_url>http://milkyway.cs.rpi.edu/milkyway/download/2c5/parameters-15-3s-sim-fast.txt</download_url>
+</file>
+<file>
+    <name>stars-15-sim-1Aug1.txt</name>
+    <nbytes>3269231.000000</nbytes>
+    <max_nbytes>0.000000</max_nbytes>
+    <md5_cksum>57130ac5717cdf17aac9882b722e83ed</md5_cksum>
+    <status>1</status>
+    <sticky/>
+    <download_url>http://milkyway.cs.rpi.edu/milkyway/download/3e7/stars-15-sim-1Aug1.txt</download_url>
+</file>
+<app_version>
+    <app_name>milkyway_separation__modified_fit</app_name>
+    <version_num>136</version_num>
+    <platform>x86_64-pc-linux-gnu</platform>
+    <avg_ncpus>1.000000</avg_ncpus>
+    <max_ncpus>1.000000</max_ncpus>
+    <flops>2191361855.931868</flops>
+    <api_version>6.13.0</api_version>
+    <file_ref>
+        <file_name>milkyway_separation__modified_fit_1.36_x86_64-pc-linux-gnu</file_name>
+        <main_program/>
+    </file_ref>
+</app_version>
+<workunit>
+    <name>de_nonmodfit_fast_15_3s_136_sim1Aug1_2_1437561602_9944072</name>
+    <app_name>milkyway_separation__modified_fit</app_name>
+    <version_num>136</version_num>
+    <rsc_fpops_est>4951320000000.000000</rsc_fpops_est>
+    <rsc_fpops_bound>4951320000000000.000000</rsc_fpops_bound>
+    <rsc_memory_bound>50000000.000000</rsc_memory_bound>
+    <rsc_disk_bound>15000000.000000</rsc_disk_bound>
+    <command_line>
+-np 20 -p 0.528190259821751 8.1822184013573 -0.726869017816958 184.981580620156 31.5372472502971 1.8781331809052 2.69805850156117 8.22899940051141 -1.63293049281956 229.83985405274 26.41 2.13 2.55 14 -1.07709117617872 183.716697092161 14.6466159304232 2.39436426535714 -0.558501811772578 3.81584549121559
+    </command_line>
+    <file_ref>
+        <file_name>parameters-15-3s-sim-fast.txt</file_name>
+        <open_name>astronomy_parameters.txt</open_name>
+    </file_ref>
+    <file_ref>
+        <file_name>stars-15-sim-1Aug1.txt</file_name>
+        <open_name>stars.txt</open_name>
+    </file_ref>
+</workunit>
+<result>
+    <name>de_nonmodfit_fast_15_3s_136_sim1Aug1_2_1437561602_9944072_2</name>
+    <final_cpu_time>0.000000</final_cpu_time>
+    <final_elapsed_time>0.000000</final_elapsed_time>
+    <exit_status>0</exit_status>
+    <state>2</state>
+    <platform>x86_64-pc-linux-gnu</platform>
+    <version_num>136</version_num>
+    <wu_name>de_nonmodfit_fast_15_3s_136_sim1Aug1_2_1437561602_9944072</wu_name>
+    <report_deadline>1441015172.000000</report_deadline>
+    <received_time>1439978373.945802</received_time>
+</result>
+<active_task_set>
+<active_task>
+    <project_master_url>http://milkyway.cs.rpi.edu/milkyway/</project_master_url>
+    <result_name>de_nonmodfit_fast_15_3s_136_sim1Aug1_2_1437561602_9944072_2</result_name>
+    <active_task_state>2</active_task_state>
+    <app_version_num>136</app_version_num>
+    <slot>0</slot>
+    <checkpoint_cpu_time>58.976760</checkpoint_cpu_time>
+    <checkpoint_elapsed_time>62.312521</checkpoint_elapsed_time>
+    <checkpoint_fraction_done>0.015645</checkpoint_fraction_done>
+    <checkpoint_fraction_done_elapsed_time>62.312521</checkpoint_fraction_done_elapsed_time>
+    <current_cpu_time>87.020900</current_cpu_time>
+    <once_ran_edf>0</once_ran_edf>
+    <swap_size>19406848.000000</swap_size>
+    <working_set_size>3584000.000000</working_set_size>
+    <working_set_size_smoothed>3580990.000000</working_set_size_smoothed>
+    <page_fault_rate>0.000000</page_fault_rate>
+</active_task>
+</active_task_set>
+<platform_name>x86_64-pc-linux-gnu</platform_name>
+<core_client_major_version>7</core_client_major_version>
+<core_client_minor_version>2</core_client_minor_version>
+<core_client_release>42</core_client_release>
+<user_run_request>2</user_run_request>
+<user_run_prev_request>2</user_run_prev_request>
+<user_gpu_request>2</user_gpu_request>
+<user_gpu_prev_request>2</user_gpu_prev_request>
+<user_network_request>2</user_network_request>
+<new_version_check_time>1439978373.945802</new_version_check_time>
+<all_projects_list_check_time>1439722557.908031</all_projects_list_check_time>
+<alt_platform>i686-pc-linux-gnu</alt_platform>
+</client_state>

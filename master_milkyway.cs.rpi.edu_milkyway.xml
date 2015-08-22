@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html>
+    <head>
+    <title>MilkyWay@Home</title>
+	<link rel="stylesheet" type="text/css" href="main.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="white.css">
+    <link rel="alternate" type="application/rss+xml" title="MilkyWay@Home RSS 2.0" href="http://milkyway.cs.rpi.edu/milkyway/rss_main.php">
+<scheduler>http://milkyway.cs.rpi.edu/milkyway_cgi/cgi</scheduler>
+<link rel="boinc_scheduler" href="http://milkyway.cs.rpi.edu/milkyway_cgi/cgi">
+
+    </head><body>
+    <span class=page_title>MilkyWay@Home</span>
+    <table cellpadding="8" cellspacing="4">
+    <tr><td rowspan="2" valign="top" width="40%">
+<div id="mainnav">
+	<img src="img/mw.png" alt="milkyway@home" width="597" height="151" align="top" />
+	<h2>Webpage in Other Languages</h2>
+	<ul>
+	<li><a href="http://www1.zhhht.com/milkyway/index.php">中国 - 简体 (Chinese-Simplified)</a>
+	</ul>
+
+
+
+        <h2>About MilkyWay@Home</h2>
+
+	<p>
+	Milkyway@Home uses the BOINC platform to harness volunteered computing resources, creating a highly accurate three dimensional model of the Milky Way galaxy using data gathered by the <a href='http://www.sdss.org/'>Sloan Digital Sky Survey</a>.  This project enables research in both astroinformatics and computer science.
+	</p>
+
+	<p>
+	In computer science, the project is investigating different optimization methods which are resilient to the fault-prone, heterogeneous and asynchronous nature of Internet computing; such as evolutionary and genetic algorithms, as well as asynchronous newton  methods.  While in astroinformatics, Milkyway@Home is generating highly accurate three dimensional models of the Sagittarius stream, which provides knowledge about how the Milky Way galaxy was formed and how tidal tails are created when galaxies merge.
+	</p>
+
+	<p>
+	Milkyway@Home is a joint effort between <a href='http://www.rpi.edu'>Rensselaer   Polytechnic Institute</a>'s departments of <a href='http://www.cs.rpi.edu'>Computer Science</a> and <a href='http://www.rpi.edu/dept/phys/'>Physics, Applied Physics and   Astronomy</a>.  Feel free to contact us via our forums, or email astro[at]cs.lists.rpi[dot]edu.
+	</p>
+
+	<p>
+	Read more on our <a href='http://milkyway.cs.rpi.edu/milkyway/science.php'>Science Page</a>, or check out our <a href='http://www.youtube.com/user/MilkywayAtHomeRPI'>YouTube Channel</a>!
+	</p>
+
+        <h2>Join MilkyWay@Home</h2>
+        <ul>
+        <li><a href="info.php">Read our rules and policies</a>
+        <li> This project uses BOINC.
+            If you're already running BOINC, select Attach to Project.
+            If not, <a target="_new" href="http://boinc.berkeley.edu/download.php">download BOINC</a>.
+        <li> When prompted, enter <br><b>http://milkyway.cs.rpi.edu/milkyway/</b>
+        <li> If you're running a command-line or pre-5.0 version of BOINC,
+            <a href="create_account_form.php">create an account</a> first.
+        <li> If you have any problems,
+            <a target="_new" href="http://boinc.berkeley.edu/help.php">get help here</a>.
+        </ul>
+
+
+        </ul>
+        <h2>Community</h2>
+        <ul>
+	<li><a href="donate_index.php"><b> Donate to MilkyWay@Home</b></a></li>
+        <li><a href='http://milkyway.cs.rpi.edu/milkyway/fundraiser.php'>2014 Capital Campaign, Archived</a></l>
+
+        <li><a href="forum_index.php">Message boards</a>
+	<li><a href="https://www.facebook.com/Milkywayathome"><b>Like Us On Facebook!</b></a>
+	<li><a href="https://www.youtube.com/user/MilkywayAtHomeRPI/playlists"><b>Check out our YouTube Channel</b></a>
+	<li><a href="newsletter.pdf"><b>Summer 2014 Newsletter</b></a>
+	<li><a href="server_status.php">Server Status</a>
+        <li><a href="profile_menu.php">Profiles</a>
+        <li><a href="user_search.php">User search</a>
+        <li><a href="stats.php">Statistics</a>
+        <li><a href=language_select.php>Languages</a>
+        </ul>
+
+	<h2>Science</h2>
+	<ul>
+	<li><a href="science.php">Astrophysics Overview</a>
+	<li><a href="information.php">Publications, Public Talks and Funding</a>
+	</ul>
+
+ <h2>Returning participants</h2>
+        <ul>
+        <li><a href="home.php">Your account</a> - view stats, modify preferences
+        <li><a href="team.php">Teams</a> - create or join a team
+        <li><a href="cert1.php">Certificate</a>
+        <li> <a href="apps.php">Applications</a>
+	</ul>
+
+        <h2>People</h2>
+        Milkyway@Home is currently run by:
+	<ul>
+	<li> <a href='http://people.cs.und.edu/~tdesell/'>Travis Desell</a>, Assistant Professor of Computer Science, University of North Dakota</li>
+	<li> <a href='http://www.rpi.edu/~newbeh/'>Heidi Newberg</a>, Professor of Physics, Applied Physics, and Astronomy </li>
+	<li> <a href='http://www.cs.rpi.edu/~magdon/'>Malik Magdon-Ismail</a>, Professor of Computer Science </li>
+	<li> <a href='http://www.cs.rpi.edu/~cvarela'>Carlos Varela</a>, Associate Professor of Computer Science </li>
+	<li> <a href='http://www.cs.rpi.edu/~szymansk/index.php'>Boleslaw Szymanski</a>, Claire and Roland Schmitt Distinguished Professor of Computer Science </li>
+	<li> Jake Weiss, Graduate Research Assistant in Physics, Applied Physics, and Astronomy </li>
+	<li>Siddhartha Shelton, Graduate Research Assistant in Physics, Applied Physics, and Astronomy </li>
+	<li> Maia Marchetti, Undergraduate Research Assistant in Physics, Applied Physics, and Astronomy </li>
+	<li> Blurf, Volunteer Forum Moderator</li>
+	</ul>
+
+	With Ongoing Support from:
+	<ul> 
+	<li> <a href='https://sites.google.com/site/matthewnewbyhome/'>Matthew Newby</a>, Adjunct Faculty in Physics, Applied Physics, and Astronomy </li>
+	<li> Jeffery Thompson, Graduate Research Assistant in Physics, Apllied Physics, and Astronomy </li>
+	<li> Matt Arsenault, Graduate Research Assistant in Physics</li>
+	</ul>
+
+	With previous support from:
+	<ul>
+	  <li> Benjamin Willet, Postdoctoral Researcher in Physics, Applied Physics and Astronomy </li>
+	  <li> Nathan Cole, Graduate Research Assistant in Physics, Applied Physics   and Astronomy </li>
+ 	  <li> Adam Susser, Undergraduate Research Assistant in Physics, Applied Physics, and Astronom
+y </li> 
+ 	  <li> Jake Bauer, Undergraduate Research Assistant in Physics, Applied Physics, and Astronomy </li>  	      <li> Steve Ulins, Undergraduate Research Assistant in Physics </li>
+	  <li> Colin Rice, Undergraduate Research Assistant in Physics </li>
+	  <li> Shane Reilly, Undergraduate Research Assistant in Computer Science </li>
+	  <li> Joe Doran, Undergraduate Research Assistant in Computer Science </li>
+	  <li> <a href='http://brianchitester.com'>Brian Chitester</a>, Undergraduate Research Assistant in Computer Science</li>
+	  <li> Dave Przybylo, Undergraduate Research Assistant in Computer Science </li>
+	  <li> John Vickers, Undergraduate Research Assistant in Physics, Applied Physics and Astronomy </li>
+	  <li> Anthony Waters, Graduate Research Assistant in Computer Science </li>
+	</ul>
+	</div>
+<div>
+<h2>Funding</h2>
+<p>
+    <a href="http://www.nsf.gov/">
+    <img class ="floating" border="0" src="img/nsf1.jpg" width ="83" height="83" alt="Funded through a grant from the National Science Foundation (NSF)." />
+    </a>
+<span>
+Milkway@home is funded through a grant from the National Science Foundation (NSF).
+Any opinions, findings, and conclusions or recommendtions expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
+</span>
+<p>
+Individual grants are listed on the <a href="./information.php">information page</a>.
+</p>
+</div>
+<br/>
+    
+    <p>
+    <a href="http://boinc.berkeley.edu/"><img align="middle" border="0" src="img/pb_boinc.gif" alt="Powered by BOINC"></a>
+    </p>
+    </td>
+
+            <td class="uotd">
+            <h2>User of the day</h2>
+        <a href="http://milkyway.cs.rpi.edu/milkyway/view_profile.php?userid=126613"><img border=0 vspace=4 hspace=8 align=left src="http://milkyway.cs.rpi.edu/milkyway/user_profile/images/126613_sm.jpg" alt="User profile"></a> <a href="http://milkyway.cs.rpi.edu/milkyway/view_profile.php?userid=126613"><img title="View the profile of Nekodemus vom Wolkenstein" src="http://milkyway.cs.rpi.edu/milkyway/img/head_20.png" alt="Profile"></a> <a href="http://milkyway.cs.rpi.edu/milkyway/show_user.php?userid=126613">Nekodemus vom Wolkenstein</a><br>for the first time, my english is though rocky, like an old dirt road. Apology
+
+For more than 50 cycles, I'm running around on this planet and try to...</td></tr>
+
+    <tr><td class="news">
+    <h2>News</h2>
+    <p>
+<p><span class=news_title>Fix for stderr.txt Truncation and Validation Errors</span><br>
+
+        <span class=news_content>Hey Everyone,<br />
+<br />
+BOINC has released a new version of the BOINC client (7.6.6) which fixes a known bug causing ~3% validation errors on MilkyWay@home and other projects.  Please update your clients soon to fix this issue.  For more info please see my thread in number crunching <a href="http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3804" rel="nofollow">here</a>.<br />
+<br />
+Jake W.</span>
+        <span class=news_date>23 Jul 2015, 12:49:42 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3805> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>Nbody Status Update</span><br>
+
+        <span class=news_content>Hey All,<br />
+<br />
+Just a quick update on the status of Nbody. I discovered that the hanging that people were experiencing were due to the Newton Raphson root finding algorithm which would get stuck in an infinite loop. After looking for why this occurred for sometime, I decided to switch to a bisection method which is insured not to get stuck. <br />
+<br />
+The slow nature of the initialization of the plummer was found to be an error in the calculation of one of the limits of integration in a crucial integral that was being calculated. What a time it was finding that! With that limit fixed, it seems that the initialization takes a few seconds! <br />
+<br />
+I am currently unit testing the code and hopefully should get a lovely new version in a couple of weeks.<br />
+<br />
+Cheers,<br />
+Sidd</span>
+        <span class=news_date>25 Jun 2015, 16:28:41 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3797> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>Updates</span><br>
+
+        <span class=news_content>Hey all,<br />
+<br />
+Jake Weiss and I will be making fairly regular updates on the status of the project under the Application Code Discussion part of the forum.<br />
+<br />
+<br />
+Cheers,<br />
+Sidd</span>
+        <span class=news_date>25 Jun 2015, 15:59:12 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3795> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>server issues</span><br>
+
+        <span class=news_content>Hey all,<br />
+<br />
+We are currently having a few issues with the server. Everything seems to be up and running yet no work units are being sent out. If any of you see any erroneous behavior on your end please let us know.<br />
+<br />
+Thanks,<br />
+Sidd</span>
+        <span class=news_date>3 Jun 2015, 18:47:39 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3781> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>Server Outage Today</span><br>
+
+        <span class=news_content>Hey Everyone,<br />
+<br />
+I was just informed by the admins in the server room on campus that they will be shutting down all of the servers for some schedules power outages at some point today. The server will be down overnight while they do some maintenance on the campus power systems.<br />
+<br />
+Thank you for your continued support and understanding.<br />
+<br />
+Jake W.<br />
+<br />
+The server is back up.  Sorry it took longer than expected to get it back online.</span>
+        <span class=news_date>1 Jun 2015, 14:52:00 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3777> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>Windows Users-please abort Nbody tasks</span><br>
+
+        <span class=news_content>Per Project Scientist Sidd: <br />
+<br />
+<blockquote class='postbody'>It seems that it is only occurring for people with windows. The other platforms seem to be running ok. We had some trouble getting the binaries for windows in order to release, I am thinking something went wrong there, as none of the windows runs are passing. I took down the Windows version for now until I figure it all out.</blockquote><br />
+<br />
+If you are a Windows user please abort all N-body tasks and go into Preferences and uncheck "MilkyWay@Home N-Body Simulation" for now.<br />
+<br />
+Thank you.</span>
+        <span class=news_date>15 May 2015, 22:56:45 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3772> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>New Nbody Version 1.50</span><br>
+
+        <span class=news_content>Hey all, <br />
+<br />
+We have released a new version of Nbody. There are a few changes in this version. First and foremost, we changed the way dark and light matter in our model dwarf galaxy is assigned. Previously, we would have all the particles have the same mass and assign a certain number as dark or light, depending on the parameters of the simulation. This required a large number of bodies in order to get a good likelihood calculation. Now, we will have the same number of dark and light matter particles, but change the mass per light and dark matter particle in accordance to the parameters. This will allow us to lower the number of bodies from 50k to 20k, allowing for a much faster initialization and simulation run time. <br />
+<br />
+Secondly, we have moved the assignment of dark and light matter from lua to c, which should also provide significant speed up in the run time.<br />
+<br />
+Also, we fixed a number of bugs we found in the velocity assignment. All in all, a simulation should run at a fraction of the time previously. This will also hopefully fix the stalling issue some people have been having. <br />
+<br />
+Finally, if you have any runs from the previously version, you can go ahead and abort them.<br />
+<br />
+Since this is a new way of doing things, there may be some unforeseen issues. So, if there are any bugs let us know!</span>
+        <span class=news_date>12 May 2015, 23:31:44 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3767> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>New Nbody release tomorrow</span><br>
+
+        <span class=news_content>Hey All,<br />
+<br />
+I just wanted to let you know that we will be releasing a version of Nbody tomorrow. I will be more specific on the changes that have been made after releasing. However, this version should hopefully be much faster and fix some other bugs.</span>
+        <span class=news_date>4 May 2015, 23:21:33 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3764> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>New Bitcoin Utopia Campaign</span><br>
+
+        <span class=news_content>Hey All, <br />
+<br />
+Bitcoin Utopia is holding another fundraising campaign for MilkyWay@home! Check it out:<br />
+<br />
+<a href="http://www.bitcoinutopia.com/2014/07/milkywayhome/#.VTqEAic4l4u" rel="nofollow">http://www.bitcoinutopia.com/2014/07/milkywayhome/#.VTqEAic4l4u</a></span>
+        <span class=news_date>24 Apr 2015, 18:00:22 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3757> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <p><span class=news_title>MilkyWay@home Server Maintenance</span><br>
+
+        <span class=news_content>Hey Everyone,<br />
+<br />
+I will be running some simple updates and giving the server a quick reboot later today.  Shouldn't cause any issues on you end, but if it does please let me know.<br />
+<br />
+Jake W.</span>
+        <span class=news_date>25 Mar 2015, 13:44:30 UTC
+    
+            &middot; <a href=http://milkyway.cs.rpi.edu/milkyway/forum_thread.php?id=3732> Comment</a>
+        </span>
+        <br clear=all>
+        <hr size=0 class=news_line>
+    <a href=http://milkyway.cs.rpi.edu/milkyway/old_news.php>... more</a>
+        <br><br><p class="smalltext">
+    News is available as an <a href=rss_main.php>RSS feed &nbsp; <img src="img/rss_icon.gif" alt="RSS"></a>
+    </td>
+    </tr></table>
+<br><hr noshade size=1><center><br><br>Copyright &copy; 2015 AstroInformatics Group</center>
+</body>
+        </html>
+    

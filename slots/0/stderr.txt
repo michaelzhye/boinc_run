@@ -1,0 +1,4 @@
+<search_application> milkyway_separation 1.36 Linux x86_64 double </search_application>
+Error loading Lua script 'astronomy_parameters.txt': [string "number_parameters: 4..."]:1: '<name>' expected near '4' 
+Switching to Parameter File
+Using SSE3 path

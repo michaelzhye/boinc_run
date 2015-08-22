@@ -1,0 +1,37 @@
+<account>
+    <master_url>http://casathome.ihep.ac.cn/</master_url>
+    <authenticator>098dd33174b74e25dad113f512017044</authenticator>
+    <project_name>CAS@home</project_name>
+<project_preferences>
+</project_preferences>
+<gui_urls>
+
+    <gui_url>
+        <name>Your account</name>
+        <description>View your account information</description>
+        <url>http://casathome.ihep.ac.cn/home.php</url>
+    </gui_url>
+    <gui_url>
+        <name>Research</name>
+        <description>Research running on CAS@home</description>
+        <url>http://casathome.ihep.ac.cn/reseaches.php</url>
+    </gui_url>
+    <ifteam>
+        <gui_url>
+            <name>Team</name>
+            <description>Info about MediaV Engineering Team</description>
+            <url>http://casathome.ihep.ac.cn/team_display.php?teamid=1849</url>
+        </gui_url>
+    </ifteam>
+    <gui_url>
+        <name>Statistics</name>
+        <description>Statistics for CAS@home</description>
+        <url>http://casathome.ihep.ac.cn/stats.php</url>
+    </gui_url>
+    <gui_url>
+        <name>Message boards</name>
+        <description>Visit the message boards</description>
+        <url>http://casathome.ihep.ac.cn/forum_index.php</url>
+    </gui_url>
+</gui_urls>
+</account>

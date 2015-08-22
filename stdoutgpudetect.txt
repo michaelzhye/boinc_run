@@ -1,0 +1,4 @@
+16-Aug-2015 18:55:53 [---] cc_config.xml not found - using defaults
+16-Aug-2015 18:58:02 [---] cc_config.xml not found - using defaults
+19-Aug-2015 17:58:44 [---] cc_config.xml not found - using defaults
+19-Aug-2015 18:00:28 [---] cc_config.xml not found - using defaults

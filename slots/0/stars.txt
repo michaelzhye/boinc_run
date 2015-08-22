@@ -1,0 +1,1 @@
+<soft_link>../../projects/milkyway.cs.rpi.edu_milkyway/stars-15-sim-1Aug1.txt</soft_link>

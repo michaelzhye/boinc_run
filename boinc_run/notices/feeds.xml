@@ -1,0 +1,12 @@
+<rss_feeds>
+  <rss_feed>
+    <url>http://setiathome.berkeley.edu/notices.php?userid=9837566&amp;auth=9837566_86531a720175e3209da430bcc0c1c839</url>
+    <poll_interval>86400.000000</poll_interval>
+    <next_poll_time>0.000000</next_poll_time>
+  </rss_feed>
+  <rss_feed>
+    <url>http://casathome.ihep.ac.cn/notices.php?userid=10795&amp;auth=10795_39a6a2fa1e6fa95b2d7049829ba004bf</url>
+    <poll_interval>86400.000000</poll_interval>
+    <next_poll_time>0.000000</next_poll_time>
+  </rss_feed>
+</rss_feeds>
